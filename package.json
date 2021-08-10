@@ -1,0 +1,21 @@
+{
+  "name": "regex",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "module": "main.js",
+  "scripts": {
+    "dev": "nodemon -r esm index.js",
+    "start": "npm i & nodemon -r esm index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "esm": "^3.2.25",
+    "nodemon": "^2.0.12"
+  },
+  "dependencies": {
+    "request-promise": "^4.2.6"
+  }
+}
