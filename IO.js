@@ -3,11 +3,11 @@ const _IO = {
     console.log(Object.keys(obj));
   },
   head: (str) => {
-    console.log(`---------------- ${str} ----------------`);
+    console.log(`----- ${str} -----`);
   },
-  g: () => console.log(g, "\n"),
+  g: (g) => console.log(g),
   line: (str) => {
-    console.log(`${str}\n`);
+    console.log(`${str || ""}\n`);
   },
   error: (str) => {
     console.error(str);
